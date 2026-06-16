@@ -192,10 +192,20 @@ function get_guest_confirmed_attendees(array $guest): array
 
 function count_guest_invited_people(array $guest): int
 {
-    return count(build_guest_invited_attendees($guest));
+    $count = 0;
+    foreach (build_guest_invited_attendees($guest) as $attendee) {
+        $parts = preg_split('/\s*(?:&|\band\b|\bund\b)\s*/i', $attendee);
+        $count += count($parts);
+    }
+    return $count;
 }
 
 function count_guest_confirmed_people(array $guest): int
 {
-    return count(get_guest_confirmed_attendees($guest));
+    $count = 0;
+    foreach (get_guest_confirmed_attendees($guest) as $attendee) {
+        $parts = preg_split('/\s*(?:&|\band\b|\bund\b)\s*/i', $attendee);
+        $count += count($parts);
+    }
+    return $count;
 }

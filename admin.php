@@ -455,7 +455,7 @@ $guests = $stmt->fetchAll();
                     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
                     $base = rtrim($protocol . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']), '/');
                     $gen_link = $base . "/index.php";
-                    $gen_share_text = "We cordially invite you to the engagement celebration of our children Saymen and Disha.\n\nAll details about the celebration and the program can be found here. We kindly and respectfully request that you confirm your attendance exclusively via this invitation link, so that we can plan accordingly:\n$gen_link\n\nWe are very much looking forward to celebrating this special occasion with you!\n\nWarm regards,\nRajinder Singh & Dimple Kapoor";
+                    $gen_share_text = "We cordially invite you to the engagement celebration of our children Saymen and Disha.\n\nAll details about the celebration and the program can be found here. We kindly and respectfully request that you confirm your attendance exclusively via this invitation link, so that we can plan accordingly:\n$gen_link\n\nWe are very much looking forward to celebrating this special occasion with you!\n\nWarm regards,\nHitesh & Harsha Arenja";
                 ?>
                 <button class="btn-luxury" style="background: #007bff; border-color: #007bff;" onclick='shareCardImg("card_general.php", <?php echo json_encode($gen_share_text); ?>, "general")'>📱 Share General Card (WhatsApp)</button>
             </div>
@@ -523,7 +523,7 @@ $guests = $stmt->fetchAll();
                                     $card_url = $base . "/card.php?g=" . $g['guest_hash'];
                                     
                                     $greeting_en = build_smart_greeting($g, 'en');
-                                    $share_text_en = "$greeting_en,\n\nWe cordially invite you to the engagement celebration of our children Saymen and Disha.\n\nAll details about the celebration can be found via the following link. We kindly and respectfully request that you confirm your attendance exclusively via this link, so that we can make the necessary arrangements:\n$link\n\nWe are very much looking forward to celebrating this special occasion with you!\n\nWarm regards,\nRajinder Singh & Dimple Kapoor";
+                                    $share_text_en = "$greeting_en,\n\nWe cordially invite you to the engagement celebration of our children Saymen and Disha.\n\nAll details about the celebration can be found via the following link. We kindly and respectfully request that you confirm your attendance exclusively via this link, so that we can make the necessary arrangements:\n$link\n\nWe are very much looking forward to celebrating this special occasion with you!\n\nWarm regards,\nHitesh & Harsha Arenja";
                                     
                                     $phone = $g['phone_number'] ?? '';
                                 ?>
