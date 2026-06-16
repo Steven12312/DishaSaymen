@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           security: loose
-          server-dir: /disha-saymen.tchanra-digital.de/
+          server-dir: /
           exclude: |
             **/.git*
             **/.git*/**
