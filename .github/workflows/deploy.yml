@@ -22,5 +22,11 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           security: loose
+          server-dir: /disha-saymen.tchanra-digital.de/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/config.local.php
+            **/.env
           state-name: .ftp-deploy-sync-state.json
           timeout: 600000
