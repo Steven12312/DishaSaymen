@@ -396,11 +396,11 @@ $guests = $stmt->fetchAll();
                     </div>
                     <div>
                         <label>First Name</label>
-                        <input type="text" name="first_name_1" placeholder="e.g. Steven" required value="<?php echo htmlspecialchars($editingGuest['first_name_1'] ?? ''); ?>">
+                        <input type="text" name="first_name_1" placeholder="e.g. Max" required value="<?php echo htmlspecialchars($editingGuest['first_name_1'] ?? ''); ?>">
                     </div>
                     <div>
                         <label>Last Name</label>
-                        <input type="text" name="last_name_1" placeholder="e.g. Tchanra" value="<?php echo htmlspecialchars($editingGuest['last_name_1'] ?? ''); ?>">
+                        <input type="text" name="last_name_1" placeholder="e.g. Mustermann" value="<?php echo htmlspecialchars($editingGuest['last_name_1'] ?? ''); ?>">
                     </div>
                 </div>
                 <div style="margin-top: 20px;">
