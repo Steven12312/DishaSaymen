@@ -134,19 +134,19 @@ $base = rtrim($protocol . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']),
             <div class="serif" style="color: #8a6d3b; margin: 15px 0 10px; font-weight: 700; letter-spacing: 1px; font-size: 0.9rem; text-transform: uppercase;">You are invited to the Engagement Party of</div>
 
             <h1 class="serif" style="color: #700000; font-size: 2.2rem; margin: 0; line-height: 1;">
-                Saymen
+                Disha
             </h1>
             <div class="parent-info">
-                Son of <strong>Rajinder Singh & Dimple Kapoor</strong>
+                Daughter of <strong>Hitesh &amp; Harsha Arenja</strong>
             </div>
             
             <div style="font-size: 0.9rem; font-family: 'Outfit'; margin: 5px 0; color: #333; font-weight: 400;">&amp;</div>
             
             <h1 class="serif" style="color: #700000; font-size: 2.2rem; margin: 0; line-height: 1;">
-                Disha
+                Saymen
             </h1>
             <div class="parent-info">
-                Daughter of <strong>Mr. Hitesh & Mrs. Harsha Arenja</strong>
+                Son of <strong>Rajinder Singh & Dimple Kapoor</strong>
             </div>
             
             <div style="width: 40px; height: 1px; background: #decba4; margin: 15px auto;"></div>

@@ -135,9 +135,9 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
                 </div>
                 
                 <h2 class="serif" style="font-size: clamp(2.5rem, 8vw, 4rem); color: var(--primary); margin: 20px 0; line-height: 1.1;">
-                    Saymen<br>
-                    <span style="font-size: 0.5em; font-family: 'Outfit'; display: block; margin: 10px 0;">&amp;</span>
                     Disha<br>
+                    <span style="font-size: 0.5em; font-family: 'Outfit'; display: block; margin: 10px 0;">&amp;</span>
+                    Saymen<br>
                 </h2>
                 
                 <div class="ornament"></div>
@@ -269,7 +269,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
             <div class="story-card fade-in">
                 <div><img src="images/story.jpg?v=3" alt="Couple"></div>
                 <div>
-                    <h2 class="serif" data-i18n="story_title" style="font-size: 2.2rem; margin-bottom: 20px;">Special Message from Saymen & Disha</h2>
+                    <h2 class="serif" data-i18n="story_title" style="font-size: 2.2rem; margin-bottom: 20px;">Special Message from Disha & Saymen</h2>
                     <p style="color: #666; font-size: 1.1rem;" data-i18n="story_text">Join us on our journey to our big day. We can't wait to celebrate this special moment with our family and closest friends.</p>
                 </div>
             </div>
@@ -278,9 +278,9 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
 
     <footer style="padding: 100px 0; text-align: center; background: #000; color: #fff; margin-top: 100px;">
         <div class="container">
-            <h2 class="serif" style="font-size: 2.5rem; letter-spacing: 2px;">Saymen & Disha</h2>
+            <h2 class="serif" style="font-size: 2.5rem; letter-spacing: 2px;">Disha & Saymen</h2>
             <div class="ornament"></div>
-            <p style="margin-top: 20px; opacity: 0.3; letter-spacing: 5px;">#SAYMENANDDISHA</p>
+            <p style="margin-top: 20px; opacity: 0.3; letter-spacing: 5px;">#DISHANDSAYMEN</p>
             <p style="margin-top: 40px; font-size: 0.7rem; opacity: 0.4;">
                 <a href="legal.php" style="color: #fff; text-decoration: none;" data-i18n="legal_link">Impressum & Datenschutz</a>
             </p>
@@ -292,7 +292,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
             en: {
                 hero_sub: "We are getting engaged!",
                 blessings: "With the blessings of our Grandparents<br><div style='display:flex;gap:15px;margin-top:10px;font-size:0.85rem;text-align:center'><div style='flex:1'><div style='font-size:0.7rem;letter-spacing:1px;color:var(--secondary);text-transform:uppercase;margin-bottom:4px'>Grandparents of Groom</div><strong>Late Sdr. Roshan Kapoor & Late Smt. Murti Kaur Kapoor</strong><br><div style='height:6px'></div><strong>Mr. Manor Singh Kapoor & Late Smt. Pushpa Kaur Kapoor</strong></div><div style='flex:1'><div style='font-size:0.7rem;letter-spacing:1px;color:var(--secondary);text-transform:uppercase;margin-bottom:4px'>Grandparents of Bride</div><strong>Mr. Babulal Arenja & Mrs. Geeta Arenja</strong><br><div style='height:6px'></div><strong>Mr. Narayan Dass Jagga & Mrs. Shaku Jagga</strong></div></div>",
-                parents_invite: "<strong>Rajinder Singh & Dimple Kapoor</strong><br>request the honour of your presence at the engagement celebration of our children",
+                parents_invite: "<strong>Hitesh &amp; Harsha Arenja</strong><br>request the honour of your presence at the engagement celebration of our children",
                 invite_prefix: "Dear",
                 invite_text: "cordially invite you to the engagement celebration of our children.",
                 generic_invite_text: "We look forward to celebrating with you!",
@@ -327,7 +327,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
                 rsvp_status_required: "Please choose whether you will attend.",
                 rsvp_attendee_required: "Please select at least one person for the RSVP.",
                 rsvp_error: "Error sending RSVP. Please try again.",
-                story_title: "Special Message from Saymen & Disha",
+                story_title: "Special Message from Disha & Saymen",
                 story_text: "Join us on our journey to our big day. We can't wait to celebrate this special moment with our family and closest friends.",
                 scroll_text: "Scroll for details",
                 location_title: "The Venue",
@@ -340,7 +340,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
             de: {
                 hero_sub: "Wir verloben uns!",
                 blessings: "Mit dem Segen unserer Großeltern<br><div style='display:flex;gap:15px;margin-top:10px;font-size:0.85rem;text-align:center'><div style='flex:1'><div style='font-size:0.7rem;letter-spacing:1px;color:var(--secondary);text-transform:uppercase;margin-bottom:4px'>Großeltern des Bräutigams</div><strong>Late Sdr. Roshan Kapoor & Late Smt. Murti Kaur Kapoor</strong><br><div style='height:6px'></div><strong>Mr. Manor Singh Kapoor & Late Smt. Pushpa Kaur Kapoor</strong></div><div style='flex:1'><div style='font-size:0.7rem;letter-spacing:1px;color:var(--secondary);text-transform:uppercase;margin-bottom:4px'>Großeltern der Braut</div><strong>Mr. Babulal Arenja & Mrs. Geeta Arenja</strong><br><div style='height:6px'></div><strong>Mr. Narayan Dass Jagga & Mrs. Shaku Jagga</strong></div></div>",
-                parents_invite: "<strong>Rajinder Singh & Dimple Kapoor</strong><br>bitten um die Ehre Ihrer Anwesenheit bei der Verlobungsfeier unserer Kinder",
+                parents_invite: "<strong>Hitesh &amp; Harsha Arenja</strong><br>bitten um die Ehre Ihrer Anwesenheit bei der Verlobungsfeier unserer Kinder",
                 invite_text: "laden Sie herzlich zur Verlobungsfeier unserer Kinder ein.",
                 generic_invite_text: "Wir freuen uns darauf, mit euch zu feiern!",
                 invalid_link_title: "Einladungslink nicht gefunden.",

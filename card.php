@@ -97,10 +97,12 @@ $site_url = $base . "/index.php?g=" . $guest_hash;
 
             <div class="card-title serif" style="color: #8a6d3b !important; margin-top: 0px; font-weight: 700; letter-spacing: 1px; font-size: 0.95rem; text-transform: uppercase;">You are invited to the Engagement Party of</div>
             
+            <p class="hosts" style="font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #555555; margin: 10px 0;">Hitesh &amp; Harsha Arenja</p>
+            
             <h1 class="card-main serif" style="color: #700000 !important; font-size: 2.3rem; margin: 5px 0; line-height: 1; font-weight: 800;">
-                Saymen<br>
+                Disha<br>
                 <span style="font-size: 0.5em; font-family: 'Outfit'; display: block; margin: 2px 0; color: #333333 !important; font-weight: 400;">&amp;</span>
-                Disha
+                Saymen
             </h1>
             
             <div style="width: 100%; height: 1px; background: #decba4; margin: 10px 0; opacity: 0.5;"></div>
