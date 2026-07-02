@@ -259,7 +259,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
                 <h4 style="margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; color: var(--secondary); font-weight: 700;">Kontakt</h4>
                 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; line-height: 1.6;">
                     <div><strong>Dave Ryan Arenja</strong><br><a href="tel:+491733065323" style="color: inherit; text-decoration: none; opacity: 0.8;">+49 173 3065323</a></div>
-                    <div><strong>Hitesh Arenja</strong><br><a href="tel:+4916774758676" style="color: inherit; text-decoration: none; opacity: 0.8;">+49 167 74758676</a></div>
+                    <div><strong>Hitesh Arenja</strong><br><a href="tel:+4917674758676" style="color: inherit; text-decoration: none; opacity: 0.8;">+49 176 74758676</a></div>
                 </div>
             </div>
         </div>
