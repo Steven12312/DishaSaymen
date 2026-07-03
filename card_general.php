@@ -145,6 +145,8 @@ $base = rtrim($protocol . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']),
             
             <div style="width: 40px; height: 1px; background: #decba4; margin: 15px auto;"></div>
 
+            <p style="margin-bottom: 5px; color: #8a6d3b; font-size: 1.1rem; font-weight: 700; letter-spacing: 1px;">5th September 2026</p>
+
             <div class="schedule-section">
                 <div class="day-title">
                     <span>Engagement Party</span>

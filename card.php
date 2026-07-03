@@ -105,6 +105,8 @@ $site_url = $base . "/index.php?g=" . $guest_hash;
             
             <div style="width: 100%; height: 1px; background: #decba4; margin: 10px 0; opacity: 0.5;"></div>
             
+            <p style="margin-bottom: 5px; color: #8a6d3b !important; font-size: 1.1rem; font-weight: 700; letter-spacing: 1px;">5th September 2026</p>
+            
             <p style="margin-bottom: 10px; color: #222222 !important; font-size: 1rem; font-weight: 700; line-height: 1.3;">We look forward to celebrating our special day with you!</p>
             
             <div style="margin-top: 10px; background: #fcf4e8; padding: 10px; border-radius: 12px; border: 1px solid #eee;">
