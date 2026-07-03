@@ -158,6 +158,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
                         <div style="display: flex; justify-content: space-between; align-items: center;">
                             <div style="text-align: left;">
                                 <div style="font-weight: 800; color: var(--secondary); font-size: 1.2rem;" data-i18n="engagement_title">Engagement Party</div>
+                                <div style="font-size: 0.9rem; color: #666; font-weight: 600; margin-top: 3px;">5th September 2026</div>
                             </div>
                             
                         </div>
@@ -267,7 +268,7 @@ $invitation_days = $guest ? (int)$guest['invitation_days'] : 3;
         <!-- Story Section -->
         <section id="story">
             <div class="story-card fade-in">
-                <div><img src="images/story.jpg?v=3" alt="Couple"></div>
+                <div><img src="images/real.jpeg" alt="Couple"></div>
                 <div>
                     <h2 class="serif" data-i18n="story_title" style="font-size: 2.2rem; margin-bottom: 20px;">Special Message from Disha & Saymen</h2>
                     <p style="color: #666; font-size: 1.1rem;" data-i18n="story_text">Join us on our journey to our big day. We can't wait to celebrate this special moment with our family and closest friends.</p>
