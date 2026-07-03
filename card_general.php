@@ -150,7 +150,7 @@ $base = rtrim($protocol . $_SERVER['HTTP_HOST'] . dirname($_SERVER['PHP_SELF']),
             <div class="schedule-section">
                 <div class="day-title">
                     <span>Engagement Party</span>
-                    <span class="day-date">25. JUN 2026</span>
+                    <span class="day-date">5. SEP 2026</span>
                 </div>
                 <div class="event-row"><span class="event-time">04:00 PM</span> <span class="event-desc">Welcome of Guests</span></div>
                 <div class="event-row"><span class="event-time">05:00 PM</span> <span class="event-desc">Light Music & Cocktails</span></div>
